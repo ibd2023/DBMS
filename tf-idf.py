@@ -22,3 +22,21 @@ terms = vectorizer.get_feature_names_out()
 # Convert to a dense array and print as rows = docs, columns = terms
 print("Terms:", list(terms))
 print("\nTF–IDF matrix:\n", tfidf_matrix.toarray())
+
+
+
+# from sklearn.feature_extraction.text import TfidfVectorizer
+
+# corpus = [
+#     'This is the first document.',
+#     'This document is the second document.',
+#     'And this is the third one.',
+#     'Is this the first document?',
+
+# ]
+
+# vectorizer = TfidfVectorizer()
+# X = vectorizer.fit_transform(corpus)
+
+# print("\nTF-IDF Matrix:")
+# print(X.toarray())
